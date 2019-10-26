@@ -9,13 +9,13 @@ Modeling and Simulation
 🎥 - **Become a [Patreon](https://www.patreon.com/theengiineer) - also for a good cause**
 
 <table width="100%">
-    <tr>
+  <tr>
+        <td width="50%"><a href="https://www.youtube.com/user/TheEngiineer/"><img alt="ode45 - A brief step-by-step explanation" src="Images/DGL1.PNG"/></td>
         <td width="50%">
-            <H2>ode45 - A brief step-by-step explanation</H2>
-            In this repository you will find all the code and other relevant material.
-        <td width="50%"><a href="https://www.youtube.com/user/TheEngiineer/"><img alt="ode45solver" src="Images/DGL1.PNG"/></a></td>
-        <a href="https://www.engineered-mind.com/post/l%C3%B6sung-einer-differentialgleichung-in-matlab-mit-dem-ode45-solver">Blog</a> |
-        <a href="https://www.youtube.com/user/TheEngiineer/">Code</a>
+            <div align="center">
+                     <a href="https://www.engineered-mind.com/post/l%C3%B6sung-einer-differentialgleichung-in-matlab-mit-dem-ode45-solver">Blog </a> |
+                     <a href="https://www.youtube.com/user/TheEngiineer/">Code</a>
+                     <p>In this repository you will find all the code and other relevant material. Video on this specific topic will be published on my YouTube channel in the future.</p></td>
     </tr>
 </table>
 <br/>
