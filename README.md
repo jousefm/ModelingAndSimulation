@@ -14,7 +14,7 @@ Modeling and Simulation
         <td width="50%">
             <div align="center">
                      <a href="https://www.engineered-mind.com/post/l%C3%B6sung-einer-differentialgleichung-in-matlab-mit-dem-ode45-solver">Blog </a> |
-                     <a href="https://github.com/jousefm/ModelingAndSimulation/tree/master/Code/ODE45">**M-File & Function**</a>
+                     <a href="https://github.com/jousefm/ModelingAndSimulation/tree/master/Code/ODE45">M-File & Function</a>
                      <p>In this repository you will find all the code and other relevant material. Video on this specific topic will be published on my YouTube channel in the future.</p></td>
     </tr>
 </table>
