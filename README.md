@@ -6,7 +6,7 @@ Modeling and Simulation
 
 [![Twitter](https://img.shields.io/twitter/follow/Jousefm2.svg?label=Follow&style=social)](https://twitter.com/Jousefm2) [![LinkedIn](https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social)](https://www.linkedin.com/in/jousefmurad/)
 
-🎥 - **Become a [Patreon](https://www.patreon.com/theengiineer) - also for a good cause**
+🎥 - **Become a [Patreon](https://www.patreon.com/theengiineer)**
 
 <table width="100%">
   <tr>
