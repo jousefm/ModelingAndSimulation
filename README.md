@@ -13,7 +13,8 @@ Modeling and Simulation
         <td width="50%"><a href="https://www.youtube.com/user/TheEngiineer/"><img alt="ode45 - A brief step-by-step explanation" src="Images/DGL1.PNG"/></td>
         <td width="50%">
             <div align="center">
-                     <a href="https://www.engineered-mind.com/post/l%C3%B6sung-einer-differentialgleichung-in-matlab-mit-dem-ode45-solver">Blog </a> |
+                     <a href="https://www.engineered-mind.com/post/l%C3%B6sung-einer-differentialgleichung-in-matlab-mit-dem-ode45-solver">Blog (German) </a> |
+                     <a href="https://www.engineered-mind.com/post/solving-an-ordinary-differential-equation-in-matlab-with-the-ode45-solver">Blog (English) </a> |
                      <a href="https://github.com/jousefm/ModelingAndSimulation/tree/master/Code/ODE45">M-File & Function</a>
                      <p>In this repository you will find all the code and other relevant material regarding the ode45-solver and how to solve a single mass oscillator.
                      Video on this specific topic will be published on my YouTube channel in the future.</p></td>
