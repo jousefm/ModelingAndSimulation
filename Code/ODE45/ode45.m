@@ -1,19 +1,14 @@
-clear all; 
+% MATLAB - Solving an ODE (Ordinary Differential Equation)
+% November, 17th 2019
+% Jousef Murad - www.engineered-mind.com
+% MATLAB Version - R2019b
 
-close all; 
+clc, clear, close all
 
-clc
-
-%% =======================================
-% Jousef Murad - KIT
-% Modeling and Simulation - 26.10.2019
-
-% ========================================
 %% Single-degree-of-freedom oscillator
-% ========================================
 
 % ==========
-% Parameter
+% Parameter Definition
 % ==========
 
 m = 1;
@@ -23,7 +18,6 @@ f = 0;
 
 % ==========
 % Initial and Boundary Conditions 
-% --> See also StateSpaceForm.m
 % ==========
 
 Time = 0:0.1:40; % 1x2 Matrix
@@ -31,7 +25,7 @@ Time = 0:0.1:40; % 1x2 Matrix
 IC = [0; 0.01]; % 2x1 Matrix
 
 % ==========
-% Solver Options and ode45-solver
+% Solver Options
 % ==========
 
 SolverOptions = odeset('RelTol',1e-5,'AbsTol',1e-5);
@@ -41,13 +35,13 @@ SolverOptions = odeset('RelTol',1e-5,'AbsTol',1e-5);
 [T,Y] = ode45(@StateSpaceForm,Time, IC, SolverOptions, m, d, c, f);
 
 % ==========
-% Plots
+% Plotting
 % ==========
 
 %plot(T,Y(:,1),'b',T,Y(:,2),'r');
 
-fig2 = figure(2)
-movegui(fig2,'northeast');
+fig1 = figure(1);
+movegui(fig1,'northeast');
 plot(T,Y(:,1));
 title('System response');
 xlabel('t[s]');
@@ -55,13 +49,12 @@ ylabel('x[m]');
 
 
 % ==========
-% Multiple Plots for all masses
+% Multiple Plots
 % ==========
 
-fig3 = figure(3);
+fig2 = figure(2);
 
 for m = 1:1:10
-%for m = 1 % Just a test line to see where the first line starts
     
     [T,Y] = ode45(@StateSpaceForm,Time, IC, SolverOptions, m, d, c, f);
     
@@ -88,4 +81,4 @@ for m = 1:1:10
     
 end
 
-movegui(fig3,'southeast');
+movegui(fig2,'southeast');
